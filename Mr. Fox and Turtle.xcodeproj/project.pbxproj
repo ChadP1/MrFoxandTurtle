@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C115F541C599D1D00AABBBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C115F531C599D1D00AABBBE /* AppDelegate.swift */; };
+		6C115F561C599D1D00AABBBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C115F551C599D1D00AABBBE /* ViewController.swift */; };
+		6C115F591C599D1D00AABBBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C115F571C599D1D00AABBBE /* Main.storyboard */; };
+		6C115F5B1C599D1D00AABBBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C115F5A1C599D1D00AABBBE /* Assets.xcassets */; };
+		6C115F5E1C599D1D00AABBBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C115F5C1C599D1D00AABBBE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C115F501C599D1D00AABBBE /* Mr. Fox and Turtle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mr. Fox and Turtle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C115F531C599D1D00AABBBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C115F551C599D1D00AABBBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C115F581C599D1D00AABBBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C115F5A1C599D1D00AABBBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C115F5D1C599D1D00AABBBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C115F5F1C599D1D00AABBBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C115F4D1C599D1D00AABBBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C115F471C599D1D00AABBBE = {
+			isa = PBXGroup;
+			children = (
+				6C115F521C599D1D00AABBBE /* Mr. Fox and Turtle */,
+				6C115F511C599D1D00AABBBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C115F511C599D1D00AABBBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C115F501C599D1D00AABBBE /* Mr. Fox and Turtle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C115F521C599D1D00AABBBE /* Mr. Fox and Turtle */ = {
+			isa = PBXGroup;
+			children = (
+				6C115F531C599D1D00AABBBE /* AppDelegate.swift */,
+				6C115F551C599D1D00AABBBE /* ViewController.swift */,
+				6C115F571C599D1D00AABBBE /* Main.storyboard */,
+				6C115F5A1C599D1D00AABBBE /* Assets.xcassets */,
+				6C115F5C1C599D1D00AABBBE /* LaunchScreen.storyboard */,
+				6C115F5F1C599D1D00AABBBE /* Info.plist */,
+			);
+			path = "Mr. Fox and Turtle";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C115F4F1C599D1D00AABBBE /* Mr. Fox and Turtle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C115F621C599D1D00AABBBE /* Build configuration list for PBXNativeTarget "Mr. Fox and Turtle" */;
+			buildPhases = (
+				6C115F4C1C599D1D00AABBBE /* Sources */,
+				6C115F4D1C599D1D00AABBBE /* Frameworks */,
+				6C115F4E1C599D1D00AABBBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mr. Fox and Turtle";
+			productName = "Mr. Fox and Turtle";
+			productReference = 6C115F501C599D1D00AABBBE /* Mr. Fox and Turtle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C115F481C599D1D00AABBBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "chad parr";
+				TargetAttributes = {
+					6C115F4F1C599D1D00AABBBE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 6C115F4B1C599D1D00AABBBE /* Build configuration list for PBXProject "Mr. Fox and Turtle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C115F471C599D1D00AABBBE;
+			productRefGroup = 6C115F511C599D1D00AABBBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C115F4F1C599D1D00AABBBE /* Mr. Fox and Turtle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C115F4E1C599D1D00AABBBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C115F5E1C599D1D00AABBBE /* LaunchScreen.storyboard in Resources */,
+				6C115F5B1C599D1D00AABBBE /* Assets.xcassets in Resources */,
+				6C115F591C599D1D00AABBBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C115F4C1C599D1D00AABBBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C115F561C599D1D00AABBBE /* ViewController.swift in Sources */,
+				6C115F541C599D1D00AABBBE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C115F571C599D1D00AABBBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C115F581C599D1D00AABBBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C115F5C1C599D1D00AABBBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C115F5D1C599D1D00AABBBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C115F601C599D1D00AABBBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C115F611C599D1D00AABBBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C115F631C599D1D00AABBBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mr. Fox and Turtle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ThatchedRoof.Mr--Fox-and-Turtle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6C115F641C599D1D00AABBBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mr. Fox and Turtle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ThatchedRoof.Mr--Fox-and-Turtle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C115F4B1C599D1D00AABBBE /* Build configuration list for PBXProject "Mr. Fox and Turtle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C115F601C599D1D00AABBBE /* Debug */,
+				6C115F611C599D1D00AABBBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C115F621C599D1D00AABBBE /* Build configuration list for PBXNativeTarget "Mr. Fox and Turtle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C115F631C599D1D00AABBBE /* Debug */,
+				6C115F641C599D1D00AABBBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C115F481C599D1D00AABBBE /* Project object */;
+}

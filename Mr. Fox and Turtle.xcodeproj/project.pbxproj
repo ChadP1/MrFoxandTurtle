@@ -12,6 +12,8 @@
 		6C115F591C599D1D00AABBBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C115F571C599D1D00AABBBE /* Main.storyboard */; };
 		6C115F5B1C599D1D00AABBBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C115F5A1C599D1D00AABBBE /* Assets.xcassets */; };
 		6C115F5E1C599D1D00AABBBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C115F5C1C599D1D00AABBBE /* LaunchScreen.storyboard */; };
+		6C3DC96A1C5DED57004D954D /* Diego Hands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C3DC9691C5DED57004D954D /* Diego Hands.ttf */; };
+		6C3DC96E1C5DEDA2004D954D /* CP.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C3DC96D1C5DEDA2004D954D /* CP.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		6C115F5A1C599D1D00AABBBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C115F5D1C599D1D00AABBBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C115F5F1C599D1D00AABBBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C3DC9691C5DED57004D954D /* Diego Hands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Diego Hands.ttf"; sourceTree = "<group>"; };
+		6C3DC96D1C5DEDA2004D954D /* CP.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CP.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				6C115F531C599D1D00AABBBE /* AppDelegate.swift */,
 				6C115F551C599D1D00AABBBE /* ViewController.swift */,
 				6C115F571C599D1D00AABBBE /* Main.storyboard */,
+				6C3DC96D1C5DEDA2004D954D /* CP.ttf */,
+				6C3DC9691C5DED57004D954D /* Diego Hands.ttf */,
 				6C115F5A1C599D1D00AABBBE /* Assets.xcassets */,
 				6C115F5C1C599D1D00AABBBE /* LaunchScreen.storyboard */,
 				6C115F5F1C599D1D00AABBBE /* Info.plist */,
@@ -122,7 +128,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C3DC96E1C5DEDA2004D954D /* CP.ttf in Resources */,
 				6C115F5E1C599D1D00AABBBE /* LaunchScreen.storyboard in Resources */,
+				6C3DC96A1C5DED57004D954D /* Diego Hands.ttf in Resources */,
 				6C115F5B1C599D1D00AABBBE /* Assets.xcassets in Resources */,
 				6C115F591C599D1D00AABBBE /* Main.storyboard in Resources */,
 			);
@@ -286,6 +294,7 @@
 				6C115F641C599D1D00AABBBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
